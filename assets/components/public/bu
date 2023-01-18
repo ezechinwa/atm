@@ -1,0 +1,20 @@
+ <div class="header flex items-center justify-between">
+          <div class="flex">
+<!--            <img class="w-40" src="../public/images/pureretirement.png" alt="">-->
+            <!-- <p> PureRetirement Bank</p> -->
+          </div>
+
+          <h2 class="text-sm font-bold">{{ date }}</h2>
+        </div>
+
+        <div class="main_content grid grid-cols-2 space-x-10 mt-10 ">
+          <div class="bg-white rounded-2xl shadow flex flex-col p-10 space-y-4">
+            <profile user_name="Williams Chinwa Jnr" />
+            <balance />
+          </div>
+
+          <div class="bg-white rounded-2xl shadow flex p-10">
+            <atm />
+          </div>
+
+        </div>
