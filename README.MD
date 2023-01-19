@@ -14,7 +14,7 @@ your system configuration (i.e define your database connection parameters)
    INSERT INTO denomination (denomination, value) VALUES ('1000', 1000), ('500', 500), ('100', 100), ('50', 50), ('20', 20), ('10', 10);
    INSERT INTO user (name, email, balance, timestamp) VALUES ('John Doe', 'johndoe@example.com',  100, now()), ('Jane Doe', 'janedoe@example.com', 200, now());
 
-7. Start up your symfony server, depending on your preferred method i.e `symfony server:start`
+7. Start up your symfony server, depending on your preferred method i.e `symfony server:start` and `npm run dev` to generate the asset files
 8. Once running, you can open the `homepage` or `http://localhost:8000/app/login`
 9. You can add a new user and set up their startup balance by visiting the registration page
 10. Enjoy!!!    
